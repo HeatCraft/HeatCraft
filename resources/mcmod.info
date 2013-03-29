@@ -1,0 +1,21 @@
+[
+{
+  "modid": "HC",
+  "name": "HeatCraft",
+  "description": "",
+  "version": "@VERSION@",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Obbidobbi",
+    "Wardtuur"
+  ],
+  "credits": "By Obbidobbi and Wardtuur",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
