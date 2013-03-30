@@ -1,5 +1,7 @@
 package heatcraft;
 
+import heatcraft.items.TestItem;
+import net.minecraft.item.Item;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.Mod.Instance;
@@ -11,6 +13,8 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
+
+
 @Mod(modid="HeatCraft", name="HeatCraft", version="0.0.0")
 @NetworkMod(clientSideRequired=true, serverSideRequired=false)
 public class HeatCraft {
@@ -19,6 +23,9 @@ public class HeatCraft {
         
         @SidedProxy(clientSide="heatcraft.client.ClientProxy", serverSide="heatcraft.CommonProxy")
         public static CommonProxy proxy;
+        
+        // Adding items
+        private final static Item testItem = new TestItem(5000);
         
         @PreInit
         public void preInit(FMLPreInitializationEvent event) {
