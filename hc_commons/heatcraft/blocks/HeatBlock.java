@@ -9,10 +9,6 @@ public class HeatBlock extends Block {
 	// Default super constructor
 	public HeatBlock(int id, int texture, Material material) {
 		super(id, texture, material);
+		setTextureFile(CommonProxy.ITEMS_PNG);
 	}
-	
-	@Override
-    public String getTextureFile () {
-            return CommonProxy.BLOCK_PNG;
-    }
 }
