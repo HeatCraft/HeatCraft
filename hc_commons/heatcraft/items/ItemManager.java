@@ -11,7 +11,7 @@ public class ItemManager {
     // Loading Items
     private final static Item testItem = new TestItem(5000);
     
-    private void loadLanguages() {
+    public static void loadLanguages() {
         LanguageRegistry.addName(testItem, "Test Item");
     }
 }

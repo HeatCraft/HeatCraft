@@ -1,5 +1,6 @@
 package heatcraft;
 
+import heatcraft.items.ItemManager;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.Mod.Instance;
@@ -30,6 +31,7 @@ public class HeatCraft {
         @Init
         public void load(FMLInitializationEvent event) {
                 proxy.registerRenderers();
+                new ItemManager();
         }
         
         @PostInit
