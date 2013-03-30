@@ -35,6 +35,7 @@ public class HeatCraft {
         @Init
         public void load(FMLInitializationEvent event) {
                 proxy.registerRenderers();
+                
         }
         
         @PostInit
