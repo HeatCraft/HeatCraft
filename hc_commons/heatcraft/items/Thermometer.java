@@ -26,7 +26,7 @@ public class Thermometer extends Item {
             int z = (int) (long)Math.floor(dz);
             Float temp2 = world.getBiomeGenForCoords(x, z).temperature;
             String temperature = Float.toString(temp2);
-            String msg = "ง2Your current temperature is ง4" + temperature + "ง2...";
+            String msg = "ยง2Your current temperature is ยง4" + temperature + "ยง2...";
             player.sendChatToPlayer(msg);
         }
         
