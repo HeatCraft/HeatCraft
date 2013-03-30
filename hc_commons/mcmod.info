@@ -2,7 +2,7 @@
 {
   "modid": "HeatCraft",
   "name": "HeatCraft",
-  "description": "Hi",
+  "description": "Adding realism to your game since 1997... Or 2013, whatever.",
   "version": "@VERSION@",
   "url": "",
   "updateUrl": "",
@@ -10,7 +10,7 @@
     "Obbidobbi",
     "Wardtuur"
   ],
-  "credits": "By Obbidobbi and Wardtuur",
+  "credits": "",
   "logoFile": "",
   "screenshots": [
   ],
