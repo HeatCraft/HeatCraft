@@ -1,5 +1,8 @@
 package heatcraft;
 
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import heatcraft.blocks.BlockManager;
 import heatcraft.items.ItemManager;
 import cpw.mods.fml.common.Mod;
@@ -33,10 +36,17 @@ public class HeatCraft {
                 proxy.registerRenderers();
                 new ItemManager();
                 new BlockManager();
+                new LanguageManager();
         }
         
         @PostInit
         public void postInit(FMLPostInitializationEvent event) {
                 // Stub Method
         }
+        
+        public static CreativeTabs tabHeatCraft = new CreativeTabs("HeatCraft") {
+            public ItemStack getIconItemStack() {
+                return new ItemStack(Item.eyeOfEnder, 1, 0);
+            }
+        }; 
 }
