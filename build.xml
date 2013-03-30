@@ -77,7 +77,7 @@
 		<jar destfile="${dir.release}\${release.minecraft.version}\${release.mod.version}\hc-universal-${release.mod.version}.jar">
 			<fileset dir="${dir.development}\mcp\MC1.5.1\src\minecraft\" includes="mcmod.info" />
 			<fileset dir="${dir.development}\mcp\MC1.5.1\reobf\minecraft" />
-			<fileset dir="${dir.development}\source\Equivalent-Exchange-3\resources" />
+			<fileset dir="${dir.development}\source\HeatCraft\resources" />
 		</jar>
 		
 		<!-- Clean up the mcp\MC1.5.1 source now that we are done -->
