@@ -48,7 +48,7 @@ public class Thermometer extends Item {
     		t = t + d;
     	}
     	
-    	if (temperature < 1) {
+    	if (temperature < 0.1) {
     		float nt = -1 + temperature;
     		t = nt * 12.8F;
     	}
