@@ -6,7 +6,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 
 public class HeaterBlock extends Block {
-
+	
 	// Default super constructor
 	public HeaterBlock(int id) {
 		super(id, Material.rock);
@@ -32,7 +32,7 @@ public class HeaterBlock extends Block {
                 return (blockIndexInTexture + 1);
         }
         
-        if (metadata == 1) {
+        if (metadata == 0) {
         	return (blockIndexInTexture + 2);
         } else {
         	return blockIndexInTexture;
